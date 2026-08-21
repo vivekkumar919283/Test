@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- MICROPHONE & AUDIO -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Jarvis needs microphone access to listen to voice commands and respond 24/7. Microphone will be recording continuously.</string>
+	<key>NSAudioInRecordingUsageDescription</key>
+	<string>Jarvis needs audio recording permission for voice processing.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Jarvis can control your music and audio playback.</string>
+
+	<!-- CAMERA & VIDEO -->
+	<key>NSCameraUsageDescription</key>
+	<string>Jarvis needs camera access for visual processing, screen capture, and real-time analysis. Camera will be active 24/7.</string>
+	<key>NSVideoSubscriberAccountUsageDescription</key>
+	<string>Jarvis can access video content.</string>
+
+	<!-- LOCATION SERVICES -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Jarvis needs your location for weather, location-based services, and navigation.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Jarvis needs continuous access to your location for real-time services.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Jarvis requires always-on location access for background services.</string>
+
+	<!-- PHOTOS & MEDIA -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Jarvis needs access to your photos and media library.</string>
+	<key>NSPhotoLibraryAddOnlyUsageDescription</key>
+	<string>Jarvis can save processed images to your library.</string>
+	<key>NSMediaLibraryUsageDescription</key>
+	<string>Jarvis can access and control your media library.</string>
+
+	<!-- CALENDAR & REMINDERS -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>Jarvis needs access to your calendar for scheduling and reminders.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Jarvis can create and manage reminders.</string>
+
+	<!-- CONTACTS -->
+	<key>NSContactsUsageDescription</key>
+	<string>Jarvis needs access to your contacts for communication.</string>
+
+	<!-- HEALTH & FITNESS -->
+	<key>NSHealthShareUsageDescription</key>
+	<string>Jarvis can read your health data for wellness insights.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Jarvis can log health and fitness activities.</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Jarvis can access your health records.</string>
+
+	<!-- MOTION & SENSORS -->
+	<key>NSMotionUsageDescription</key>
+	<string>Jarvis needs access to motion sensors for gesture recognition.</string>
+
+	<!-- BLUETOOTH (IoT Control) -->
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Jarvis needs Bluetooth to control smart home devices, wearables, and IoT gadgets.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Jarvis requires continuous Bluetooth access for IoT device control.</string>
+
+	<!-- NFC (Smart Cards) -->
+	<key>NFCReaderUsageDescription</key>
+	<string>Jarvis can read NFC tags and smart cards.</string>
+
+	<!-- HOME KIT -->
+	<key>NSHomeKitUsageDescription</key>
+	<string>Jarvis can control your HomeKit devices and smart home.</string>
+
+	<!-- SIRI INTEGRATION -->
+	<key>NSSiriUsageDescription</key>
+	<string>Jarvis integrates with Siri for voice command processing.</string>
+
+	<!-- FACE ID -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>Jarvis can use Face ID for secure authentication.</string>
+
+	<!-- SCREEN RECORDING -->
+	<key>NSScreenRecordingUsageDescription</key>
+	<string>Jarvis needs permission to record your screen for processing and analysis.</string>
+
+	<!-- LOCAL NETWORK -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Jarvis needs access to your local network for device communication.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_airplay._tcp</string>
+		<string>_companion-link._tcp</string>
+		<string>_services._tcp</string>
+		<string>_http._tcp</string>
+	</array>
+
+	<!-- NETWORK EXTENSION -->
+	<key>NSNetworkExtensionUsageDescription</key>
+	<string>Jarvis can monitor and control network settings.</string>
+
+	<!-- FILE ACCESS -->
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Jarvis needs access to your Documents folder.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Jarvis needs access to your Downloads folder.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Jarvis needs access to your Desktop folder.</string>
+
+	<!-- VOICE OVER IP -->
+	<key>NSVoiceOverUsageDescription</key>
+	<string>Jarvis can integrate with accessibility features.</string>
+
+	<!-- KEYBOARD -->
+	<key>NSKeyboardAccessibilityUsageDescription</key>
+	<string>Jarvis can access keyboard for text input.</string>
+
+	<!-- BACKGROUND MODES -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+		<string>location</string>
+		<string>newsstand-content</string>
+		<string>external-accessory</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+	</array>
+
+	<!-- SECURITY & TRANSPORT -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInMedia</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+
+	<!-- SECURITY POLICIES -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<key>com.apple.security.device.camera</key>
+	<true/>
+	<key>com.apple.security.device.usb</key>
+	<true/>
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	<key>com.apple.security.files.downloads.read-write</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+
+	<!-- APP INFO -->
+	<key>CFBundleName</key>
+	<string>Jarvis AI</string>
+	<key>CFBundleDisplayName</key>
+	<string>Jarvis AI Assistant</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientationsIpad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
